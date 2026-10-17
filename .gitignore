@@ -1,0 +1,27 @@
+# Secrets: API keys and passwords. Never commit these.
+.env
+.env.*
+
+# Local databases (SQLite file created while developing)
+*.db
+*.sqlite3
+
+# Python: compiled caches and the virtual environment uv creates
+__pycache__/
+*.pyc
+.venv/
+
+# JavaScript: installed packages (rebuilt from package.json) and build output
+node_modules/
+dist/
+
+# macOS junk
+.DS_Store
+
+# Editor settings
+.idea/
+.vscode/
+
+# Local-only files we chose not to commit
+reference/
+DESIGN.md
